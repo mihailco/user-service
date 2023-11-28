@@ -1,0 +1,28 @@
+datasource:
+  hh:
+    pool-name: hh
+    jdbcUrl: jdbc:postgresql://localhost:5433/postgres
+    driver-class-name: org.postgresql.Driver
+    password: postgrespw
+    username: postgres
+
+spring:
+#  flyway:
+#    enabled: true
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  access:
+    secret:
+      mapsmmsmclmcpa02091830ueofj092asdffb
+    ttl: 60000
+
+  refresh:
+    secret:
+      jijaOIcihpih9pd89289189939090asdf
+    ttl: 1728000000
